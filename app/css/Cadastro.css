@@ -1,0 +1,62 @@
+/* Estilo principal do corpo da tela de cadastro */
+.body-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.8), rgba(128, 0, 128, 0.8), rgba(0, 0, 255, 0.8));
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #020202;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos campos de entrada */
+input[type="email"],
+input[type="password"] {
+    padding: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: rgba(128, 0, 128, 0.8); /* Tom roxo do Posto 40 */
+    outline: none;
+}
+
+/* Botão de envio */
+button[type="submit"] {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(128, 0, 128, 0.8); /* Tom roxo */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(128, 0, 128, 1);
+}
+
+/* Estilo da mensagem de erro */
+p {
+    margin-bottom: 1rem;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

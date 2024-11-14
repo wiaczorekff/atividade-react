@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1f0030, #3a0e63, #1f0030);
+    color: #f1f1f1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.8), rgba(128, 0, 128, 0.8), rgba(0, 0, 255, 0.8));
+    padding: 20px 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo-image {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+    border-radius: 38%;
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.NavBar, .NavBarcadastra-se {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.NavBar:hover, .NavBarcadastra-se:hover {
+    color: #ffdf5d;
+    text-decoration: underline;
+}
+
+/* Outros estilos permanecem os mesmos */
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quadroimage img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilização para o layout invertido */
+.conteiner.inverted {
+    flex-direction: row-reverse;
+}
+
+
+.quadrodetexto h2 {
+    font-size: 24px;
+    color: #ffdf5d;
+    margin-bottom: 15px;
+}
+
+.textodescricao {
+    width: 500px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(148, 7, 7, 0.8), rgba(128, 0, 128, 0.8), rgba(189, 165, 28, 0.8));
+    padding: 30px 100px;
+    color: #f1f1f1;
+}
+
+.footerSection {
+    max-width: 300px;
+}
+
+.footerSection h2, .footerSection h3 {
+    color: #ffdf5d;
+    margin-bottom: 10px;
+}
+
+.footerSection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerSection li {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.footerSection img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
